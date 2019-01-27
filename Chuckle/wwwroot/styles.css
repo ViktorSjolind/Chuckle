@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.post-form input[type=submit] {
+.post-form button {
     background-color: #e82b62;
     border: none;
     text-decoration: none;
@@ -26,15 +26,30 @@
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;
+    border-radius: .25rem;
 }
 
 .post-form{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .logo{
     display: flex;
     justify-content: center;
+}
+
+.card {
+    /* The entire point is to create cards inside divs that doesn't break the bootstrap grids*/
+    margin: 1em 0;
+    padding: 0 1em;
+    border: 0.1em solid GAINSBORO;
+    color: black;
+}
+#posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
